@@ -25,7 +25,7 @@ echo
   # Opensearch
   echo export OPENSEARCH_VERSION="2.12.0"
   echo export OPENSEARCH_ADMIN_USERNAME="admin"
-  echo export OPENSEARCH_ADMIN_PASSWORD="OpenSearch123"
+  echo export OPENSEARCH_ADMIN_PASSWORD="OpenSearch123" # see readme
 
   # Php
   echo export PHP_VERSION='8.2'
@@ -52,7 +52,7 @@ echo
   echo export MAGENTO_ADMIN_LASTNAME='Mustermann'
   echo export MAGENTO_ADMIN_EMAIL='example@example.com'
   echo export MAGENTO_USERNAME='max.mustermann'
-  echo export MAGENTO_ADMIN_PASSWORD='magento123'
+  echo export MAGENTO_ADMIN_PASSWORD='magento123' # see readme
   echo export MAGENTO_BACKEND_FRONTNAME='admin_example'
   echo export MAGENTO_PUBLIC_KEY=''
   echo export MAGENTO_PRIVATE_KEY=''

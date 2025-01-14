@@ -36,6 +36,8 @@ ubuntu 22.04 instance just by few steps.
 
 - ``OPENSEARCH_ADMIN_PASSWORD``:
   It is required to have uppercase characters in the password.
+- ``MAGENTO_ADMIN_PASSWORD``:
+  Your password must include both numeric and alphabetic characters.
 ## Adaptable services
 
 - Opensearch
