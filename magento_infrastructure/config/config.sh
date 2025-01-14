@@ -14,10 +14,6 @@ echo
 
 # Settings
 {
-  # Ubuntu user
-  echo export UBUNTU_USERNAME='magento'
-  echo export UBUNTU_USER_PASSWORD='magento123'
-
   # Domain
   echo export DOMAIN_NAME="example"
   echo export DOMAIN_ENDING="com"
@@ -29,10 +25,10 @@ echo
   # Opensearch
   echo export OPENSEARCH_VERSION="2.12.0"
   echo export OPENSEARCH_ADMIN_USERNAME="admin"
-  echo export OPENSEARCH_ADMIN_PASSWORD="opensearch123"
+  echo export OPENSEARCH_ADMIN_PASSWORD="OpenSearch123"
 
   # Php
-  echo export PHP_VERSION='8.3'
+  echo export PHP_VERSION='8.2'
 
   # Database
   echo export DATABASE_NAME="magento2"

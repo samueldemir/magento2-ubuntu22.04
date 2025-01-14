@@ -34,6 +34,8 @@ ubuntu 22.04 instance just by few steps.
         file in the `magento_infrastructure/letsencrypt` folder. The .zip folder strcuture should look like the following..
         The ``letsencrypt_<DOMAIN>.<DOMAIN_ENDING>.zip/letsencrypt/[renewal-hooks, renewal, live, keys, csr, archive, accounts, ...]``
 
+- ``OPENSEARCH_ADMIN_PASSWORD``:
+  It is required to have uppercase characters in the password.
 ## Adaptable services
 
 - Opensearch
