@@ -20,7 +20,7 @@ ubuntu 22.04 instance just by few steps.
 
 ## Params
 
-- ``LETSENCRYPT_METHOD``: ``new|existing
+- ``LETSENCRYPT_METHOD``: ``new|existing``
     
     - ``new``:<br>
         The shell script tries to certificate your domain completely new. 
