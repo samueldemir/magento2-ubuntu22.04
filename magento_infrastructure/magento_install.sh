@@ -18,11 +18,12 @@
 . /magento_infrastructure/mariadb/mariadb.sh
 . /magento_infrastructure/opensearch/opensearch.sh
 . /magento_infrastructure/magento/magento.sh
-. /magento_infrastructure/magento/magento-configs.sh
 . /magento_infrastructure/nginx/nginx-conf.sh
 . /magento_infrastructure/varnish/varnish-conf.sh
 . /magento_infrastructure/redis/redis.sh
+. /magento_infrastructure/magento/magento-configs.sh
 . /magento_infrastructure/magento/flush-cache.sh
+. /magento_infrastructure/services/services-restart.sh
 
 
 
