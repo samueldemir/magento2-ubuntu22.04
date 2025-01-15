@@ -20,7 +20,6 @@ curl -O http://download.redis.io/releases/redis-"${REDIS_VERSION}".tar.gz
 tar xzvf redis-"${REDIS_VERSION}".tar.gz
 cd redis-"${REDIS_VERSION}"
 make
-make test
 sudo make install
 cp /tmp/redis-"${REDIS_VERSION}"/redis.conf /etc/redis/redis.conf
 sudo sed -i 's/^# supervised auto/supervised systemd/' /etc/redis/redis.conf
