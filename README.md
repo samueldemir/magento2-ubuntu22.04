@@ -31,8 +31,8 @@ ubuntu 22.04 instance just by few steps.
         If you specify the existing method you need to backup first the old certificate data.
         You can just copy the folder in ``/etc/letsencrypt`` and make it as a .zip file.
         Please add the ``letsencrypt_<DOMAIN>.<DOMAIN_ENDING>.zip`` 
-        file in the `magento_infrastructure/letsencrypt` folder. The .zip folder structure should look like the following..
-        The ``letsencrypt_<DOMAIN>.<DOMAIN_ENDING>.zip/letsencrypt/[renewal-hooks, renewal, live, keys, csr, archive, accounts, ...]``
+        file in the `magento_infrastructure/letsencrypt` folder. The .zip folder structure should look like the following:
+        ``letsencrypt_<DOMAIN>.<DOMAIN_ENDING>.zip/letsencrypt/[renewal-hooks, renewal, live, keys, csr, archive, accounts, ...]``
 
 - ``OPENSEARCH_ADMIN_PASSWORD``:
   It is required to have uppercase characters in the password.
