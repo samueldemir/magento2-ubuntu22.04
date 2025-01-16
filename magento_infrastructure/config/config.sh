@@ -28,7 +28,7 @@ echo
   echo export OPENSEARCH_ADMIN_PASSWORD="OpenSearch123" # see readme
 
   # Php
-  echo export PHP_VERSION='8.2'
+  echo export PHP_VERSION='8.3'
 
   # Database
   echo export DATABASE_NAME="magento2"
@@ -47,7 +47,7 @@ echo
   echo export REDIS_VERSION="7.2.6"
 
   # Magento
-  echo export MAGENTO_VERSION='2.4.6'
+  echo export MAGENTO_VERSION='2.4.7'
   echo export MAGENTO_ADMIN_FIRSTNAME='Max'
   echo export MAGENTO_ADMIN_LASTNAME='Mustermann'
   echo export MAGENTO_ADMIN_EMAIL='example@example.com'
