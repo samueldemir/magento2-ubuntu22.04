@@ -16,7 +16,7 @@ sudo php bin/magento deploy:mode:set developer
 sudo php bin/magento module:disable Magento_AdminAdobeImsTwoFactorAuth
 sudo php bin/magento module:disable Magento_TwoFactorAuth
 sudo php bin/magento setup:upgrade
-sudo php/bin setup:di:compile
+sudo php bin/magento setup:di:compile
 
 # SESSION/PASSWORD LIFETIMES CONF
 sudo php bin/magento config:set admin/security/session_lifetime 31536000
